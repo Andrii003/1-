@@ -1,0 +1,59 @@
+# Завдання 1
+var_int = 10
+var_float = 8.4
+var_str = "No"
+
+# Завдання 2
+big_int = var_int * 3.5
+
+# Завдання 3
+var_float -= 1
+
+# Завдання 4
+result1 = var_int / var_float
+result2 = big_int / var_float
+
+# Завдання 5
+var_str = var_str * 2 + "Yes" * 3
+
+
+
+# ЗАВДАНН 6 Виведення значень змінних
+print("Значення змінних:")
+print("var_int:", var_int)
+print("var_float:", var_float)
+print("var_str:", var_str)
+print("big_int:", big_int)  # big_int не перезаписували, тому значення лишається таким же
+print("Результати обчислень:")
+print("Результат ділення var_int на var_float:", result1)
+print("Результат ділення big_int на var_float:", result2
+
+
+завдання 7 
+import math
+
+def main():
+   # Отримання 5 невід'ємних чисел від користувача
+   a = int(input("Введіть a: "))
+   b = int(input("Введіть b: "))
+   k1 = int(input("Введіть k1: "))
+   k2 = int(input("Введіть k2: "))
+   k3 = int(input("Введіть k3: "))
+
+   # Перевірка на невід'ємність
+   if a < 0 or b < 0  or k1 < 0 or k2 < 0 or k3 < 0:
+       print("Всі числа повинні бути невід'ємними!")
+       return
+
+   # Отримання дійсного числа x від користувача
+   x = float(input("Введіть x: "))
+
+   # Обчислення значення Y
+   y = (x + 3 * a - k1 * x) / (k2 * x + k3 * x)
+
+   # Виведення результату
+   print(f"Y = {y}")
+
+if __name__ == "__main__":
+   main()
+
